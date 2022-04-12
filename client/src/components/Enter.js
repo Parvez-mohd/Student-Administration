@@ -17,7 +17,7 @@ export default function Enter() {
 
 const submitHandler =  (e)=>{
   e.preventDefault();
-    fetch("http://localhost:5000/add",{
+    fetch("/add",{
         method:"post",
         headers:{
         "Content-Type":"application/json"
